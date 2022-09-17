@@ -39,7 +39,7 @@ ul li a {
 }
 
 #header {
-    padding: 2rem;
+    padding-bottom: 2rem;
     background-color: #1F2937;
 }
 
@@ -50,7 +50,11 @@ ul li a {
 #header-text p {
     font-size: 1.2rem;
     color: #E5E7EB;
-} 
+}
+
+#header-text p:first-of-type {
+    margin-bottom: 1rem;
+}
 
 #header-text h1 {
     font-size: 2rem;
